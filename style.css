@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: url(bgmath.jpg);
+  }
+
+  #container {
+    display: flex;
+    align-items: flex-end;
+    gap: 5px;
+    margin-bottom: 20px;
+  }
+
+  .bar {
+    background-color: black;
+    width: 20px;
+    margin: 0 2px;
+    height: 5px;
+  }
+
+  .sorting-options-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sorting-options {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  button {
+    background-color: wheat;
+    color: black;
+    border: none;
+    padding: 7px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0 5px;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  button:hover {
+    background-color: gray;
+  }
+
+  .tc {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+    color: gray;
+    gap: 0px;
+  }
